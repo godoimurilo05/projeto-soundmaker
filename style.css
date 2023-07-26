@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color:#250d1f ;
+}
+h2{
+    color: #28E600;
+    font-family: 'REM', Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+ul{
+    color:#ffffff;
+    
+}
+li.menu-entrada-1 , li.menu-entrada-2{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+li.menu-entrada-1:hover,li.menu-entrada-1:hover{
+    background-color: #ffffff;
+    color: black;
+}
+li.menu-central:hover{
+    color: #28E600;
+}
+li{
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin:10px;
+    text-shadow: 1px 1px 3px black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    color: #ffffff; 
+    display: flex;
+    flex-direction: row;
+}
+h1{
+   font-size: 3em;
+   margin-top: 50px;
+   padding: 20px;
+   text-shadow: 2px 2px 4px black;
+}
+p{
+    margin: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@media screen and (max-width:760px){
+    nav{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        font-size: 38px;
+    }
+    ul{
+        text-align: center;
+    }
+    li.menu-central{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    img{
+        display: none;
+    }
+    h1{
+        justify-content: center;
+        margin: 10px;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    li.menu-entrada-2{
+        display: none;
+    }
+}
